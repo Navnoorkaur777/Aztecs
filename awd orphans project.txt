@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Childeren's Welfare and Development</title>
+        <meta charset-UTF-8>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>  
+                <script src="slider.js"></script>  
+        <link rel="stylesheet" href="slider.css" />  
+        <style>
+        <style>
+
+            html {
+            min-height: 100%;
+            }
+
+             body {
+            background: #5f2c82;
+            background: -webkit-linear-gradient(to bottom, #55b4b1, #5f2c82); 
+            background: linear-gradient(to bottom, #62dad6, #5f2c82)
+            }
+
+            #a1{color: white;
+            text-align:center;
+            font-size: 500%;
+            text-shadow: 2px 2px #333;
+            }
+
+            #a2{color: white;
+            text-align:center;
+            font-size: 250%;
+            text-shadow: 2px 2px #333;
+            }
+            #d1{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            }
+            /*LEFT DIV*/
+            #d2{color: rgb(231, 47, 109);
+            width: 55%;
+            height: 683px;
+            float: left;
+            background-image: 
+            url("final\ pic.jpg");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: 100%;
+            text-align: center;
+            margin-left: 5%;
+            margin-bottom: 5%;
+            border-style: double;
+            }
+            /*RIGHT DIV*/
+            #d3{color: rgb(231, 47, 109);
+            width: 55%;
+            height: 683px;
+            float: right;
+            background-image: 
+            url("final\ pic.jpg");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: 100%;
+            text-align: center;
+            margin-left: 40%;
+            border-style: double;
+            }
+            /*DIVS PICS ADJUSTMENTS*/
+            #left{
+            display: block;
+            width: 60%;
+            height: 200px;
+            margin-left: 130px;
+            
+            }
+
+            #right{
+            display: block;
+            width: 60%;
+            height: 200px;
+            margin-left: 130px;
+            }
+            /* DIV PICS ADJUSTMENTS END*/
+            #a3{color: white;
+            text-align: center;
+            font-size: 350%;
+            margin-top: 6%;
+            text-shadow: 2px 2px black;
+            }
+
+            #a4{
+                text-shadow: 2px 2px skyblue;
+            }
+
+            #a5{
+                text-shadow: 2px 2px skyblue;
+                margin-right: 5%;
+            }
+
+            .c1{font-size: 150%;
+            text-align: center;
+            color: rgb(6, 36, 39);
+            margin-left: 5%;
+            margin-right: 5%;
+            }
+
+            #i1{
+            margin-left: 75px;
+            }
+           /*HEADER NAV*/
+            #u1{
+            font-size: 20px;
+            font-weight: 400;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            }
+
+            .c3{
+            float: left;
+            }
+
+            .c3 a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            }
+
+            .c3 a:hover:not(.active) {
+            background-color: rgb(72, 188, 241);
+            }
+
+            .active {
+            background-color: #4CAF50;
+            }
+
+            /*FOOTER*/
+    
+            .navbar1 {
+            overflow: hidden;
+            background: #343a40;
+            color: #686868;
+            position: fixed;
+            bottom: 0;
+            margin-top: 10px;
+            width: 100%;
+        }
+        
+        .navbar1 a {
+            float: right;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        
+        .navbar1 a:hover {
+            background-color: rgb(72, 188, 241);
+            color: black;
+        }
+        
+        .navbar1 a.active {
+            background-color: #343a40;
+            color: white;
+        }
+        
+        .navbar1 .icon {
+            display: none;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .navba1r a:not(:first-child) {
+                display: none;
+            }
+            .navbar1 a.icon {
+                float: right;
+                display: block;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            .navbar1.responsive .icon {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+            }
+            .navbar1.responsive a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+        }
+
+            /*FIRST DROPDOWN*/
+
+            .Adoption {
+             background-color: #da3381;
+             color: white;
+             padding: 16px;
+             font-size: 16px;
+             border: none;
+             margin-top: 20%;
+             border-radius: 8px;
+            }
+
+            .AdoptionStories {
+            position: relative;
+            display: inline-block;
+            }
+
+            .AdoptionStories-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            }
+
+            .AdoptionStories-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            }
+
+            .AdoptionStories-content a:hover {background-color: #ddd;}
+
+            .AdoptionStories:hover .AdoptionStories-content {display: block;}
+
+            .AdoptionStories:hover .Adoption {background-color: #2649bb;}
+
+          /*SECOND DROPDOWN*/
+            .Donation {
+            background-color: #da3381;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            margin-top: 20%;
+            border-radius: 8px;
+            }
+
+           .DonationStories {
+            position: relative;
+            display: inline-block;
+           }
+
+           .DonationStories-content {
+           display: none;
+           position: absolute;
+           background-color: #f1f1f1;
+           min-width: 160px;
+           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+           z-index: 1;
+           }
+
+           .DonationStories-content a {
+           color: black;
+           padding: 12px 16px;
+           text-decoration: none;
+           display: block;
+           }
+
+           .DonationStories-content a:hover {background-color: #ddd;}
+
+           .DonationStories:hover .DonationStories-content {display: block;}
+
+           .DonationStories:hover .Donation {background-color: #2649bb;}
+           
+
+        </style>
+    
+</head>        
+    </head>
+    <body>
+        <h1 id="a1" class="center"><b>Childeren's Welfare and Development</b></h1>
+        </div>
+        <section>
+            <img class="slides" src="project pic4.png" style="width:100%; height: 500px;">
+            <img class="slides" src="project pic5.png" style="width:100%; height:500px;">
+            <img class="slides" src="project pic1.png" style="width:100%; height:500px;">
+            <img class="slides" src="project pic6.png" style="width:100%; height:500px;">
+            <img class="slides" src="project pic7.png" style="width:100%; height:500px;">
+            <img class="slides" src="project pic2.jpg" style="width:100%; height:500px;">
+        </section>
+        <ul id="u1">
+            <li class="c3"><a class="nav-link" href="#home">Home</a></li>
+            <li class="c3"><a class="nav-link" href="file:///C:/Users/HP/OneDrive/Desktop/Adoption%20Form.html">Adopt</a></li>
+            <li class="c3"><a class="nav-link" href="file:///C:/Users/HP/OneDrive/Desktop/adoption%20stories%20slides.html">Adoption Stories</a></li>
+            <li class="c3"><a class="nav-link" href="file:///C:/Users/HP/OneDrive/Desktop/Donation%20Form.html">Donate</a></li>
+            <li class="c3"><a class="nav-link" href="file:///C:/Users/HP/OneDrive/Desktop/donation%20story%20slides.html">Donation Stories</a></li>
+            <li class="c3"><a class="nav-link" href="file:///C:/Users/HP/OneDrive/Desktop/More.html">More</a></li>
+            <li class="c3"><a class="nav-link" href="#about">About</a></li>
+          </ul> 
+       <h2 id="a2"> "One Child, One Teacher, One Book and One Pen can change the World" - Malala Yousafzai</h2>
+       <div class="c1">
+        <b>Adoption</b> comes with many amazing benefits not only for the birth parents and adoptive couple but for the kids, too. Adoption provides children with the opportunity to experience life in a way that their birth parents wanted for them.And while there are certainly challenges along the way in raising an adopted child, it is important to remember that there are challenges in parenthood in general. It’s also important to recognize that the positive effects of adoption on the child far outweigh the negatives.
+       </div>
+       <div class="c1">Adoption provides the child with a stable, loving home environment. Adopted children are often more likely to have better educational support and personal success. Adoptive parents want to see their child succeed in every way — emotionally, educationally, mentally, physically, and spiritually. They help them reach goals, and they often provide them learning opportunities that help enrich them and tap into their natural abilities.
+
+        In the end, that translates to a child who grows into an adult who knows who they are and what they want out of life. Primary in this is growing up knowing the truth that they were adopted, chosen out of love. The birth mother, adoptive parents, and the adopted child can form a bond that lasts a lifetime. It provides the child with more love. It also provides the child with a chance to fulfill their dreams. Which creates a special space for the child to grow and thrive. They are given the chance to see and experience the world in a way that may not have happened without the adoption. This allows them to begin dreaming, even from a young age.
+       </div>
+        <div class="c1">If you feel like adoption is not what you can afford but you still want to contribute for the betterment of children then you can also provide us with <b>donations</b>. As, your little contribution can change the world of a child and make their life better. We accept donations both in the form of money or the items or things needed by the children such as pen, pencils, books, notebooks, etc.
+        </div>
+        <div class="c1">
+            A lot of children have got a better life and living enviornment due to your generous contributions. Pleaase continue to support and help them.
+            As, your contributions mean a lot to us!!
+        </div>
+        <aside></aside>
+        <div id="d1">
+        <h1 id="a3">Our Achievements</h1>
+        <div id="d2"><h1 id="a4">Succesful Stories of Adoption</h1><img src="adoption.jfif" id="left">
+            <div class="AdoptionStories">
+            <button class="Adoption">Adoption Stories</button>
+            <div class="AdoptionStories-content">
+              <a href="file:///C:/Users/HP/OneDrive/Desktop/adoption%20stories%20slides.html">Stories</a>
+            </div>
+            </div>
+        </div>
+        <div id="d3"><h1 id="a5">Contributions in the Donations</h1><img src="donations.jfif" id="right">
+            <div class="DonationStories">
+                <button class="Donation">Donation Stories</button>
+                <div class="DonationStories-content">
+                  <a href="file:///C:/Users/HP/OneDrive/Desktop/donation%20story%20slides.html">Stories</a>
+                </div>
+              </div>
+        </div>      
+        </div>
+     
+        <div class="navbar1" id="myNavbar">
+            <a href="#home" class="active">Home</a>
+            <a href="file:///C:/Users/HP/OneDrive/Desktop/Adoption%20Form.html">Adopt</a>
+            <a href="file:///C:/Users/HP/OneDrive/Desktop/Donation%20Form.html">Donate</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <script type="text/javascript">
+            var index = 0;
+            change();
+        
+            function change() {
+        
+                //Collect all images with class 'slides'
+                var x = document.getElementsByClassName('slides');
+        
+                //Set all the images display to 'none' (invisible)
+                for(var i = 0; i < x.length; i++) { 
+                    x[i].style.display = "none"; 
+                }
+        
+                //Increment index variable
+                index++;
+        
+                //Set index to 1 if it's greater than the amount of images
+                if(index > x.length) { 
+                    index = 1; 
+                }
+        
+                //set image display to 'block' (visible)
+                x[index - 1].style.display = "block";
+        
+                //set loop to change image every 3000 milliseconds (3 seconds)
+                setTimeout(change, 3000);
+            }
+        </script>
+    </body>
+</html>

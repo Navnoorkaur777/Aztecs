@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gk.css">
+    <title>culture</title>
+</head>
+
+<body>
+    <div class="header">
+
+        <p id="hello"><b>Let's Save Our Indian Art And Culture</b></p>
+
+    </div>
+    <div class="navbar">
+        <a href="#a1">Music</a>
+        <a href="#a2">Dance</a>
+        <a href="#a3">Threatre</a>
+        <a href="formq1.html" class="right">Make A Donation  </a>
+    </div>
+    <section>
+        <img class="mySlides" src="dance.jpg" style="width: 100%; height:400px;">
+        <img class="mySlides" src="music.jpg" style="width: 100%;height: 400px;">
+        <img class="mySlides" src="theatre.jpg" style="width: 100%;height: 400px;">
+    </section>
+    <h1 id="hello2">Introduction </h1>
+    <p>
+        India was home to many invasions and thus it only added to the present variety. Today, India stands as a powerful and multi-cultured society as it has absorbed many cultures and moved on.<br> People here have followed various religion, traditions,
+        and customs. Although people are turning modern today, hold on to the moral values and celebrates the festivals according to customs.<br> So, we are still living and learning epic lessons from Ramayana and Mahabharata. Also, people still throng
+        Gurudwaras, temples, churches, and mosques.
+        <br><br> The culture in India is everything from people’s living, rituals, values, beliefs, habits, care, knowledge, etc. Also, India is considered as the oldest civilization where people still follows their old habits of care and humanity. Additionally,
+        culture is a way through which we behave with others, how softly we react to different things, our understanding of ethics, values, and beliefs.
+    </p>
+    <aside>
+        <p>
+            India is a curious place that still preserves the past, religions, and its history. No matter how modern India becomes, it is still very much an old country.
+        </p>
+    </aside>
+    <p>
+        My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!
+    </p>
+
+    <div id="d1">
+        <div id="a1" class="c1">
+
+            <h1> Music </h1>
+            <img src="ravi.jpg" style="height: 200px; width: 400px;">
+            <p>
+                Music has a place of primacy in Indian culture: in traditional aesthetics, music is often allegorised as 'the food of the soul'. It symbolises India's remarkable diversity in cultural, linguistic and religious terms and embodies the historical tides that
+                have shaped its contemporary pluralism.<br> But now a days our music is losing its colour but there are some people who nowadys also have been entacted with pure indain music but they need suport ." WILL YOU HEPL THEM ?
+                <br> if you want to take a look on authentic indian music click on the button below .
+                <br><br> <a href="u.html" class="b1">Click here </a>
+            </p>
+        </div>
+        <div id="a2" class="c1">
+            <h1> Dance </h1>
+            <img src="dancefo.jpg" style="height: 200px; width: 400px;">
+            <p>
+                Indian music is a rich tradition that originated in South Asia and can now be found in all corners of the world. It’s origins date back to sacred Vedic scriptures over 6,000 years ago where chants developed a system of musical notes and rhythmic cycles.
+                Indian music is very closely connected to nature.
+                <br> But now a days our music is losing its colour but there are some people who nowadys also have been entacted with pure indain music but they need suport ." WILL YOU HEPL THEM ?"
+                <br> <br><a href="u.html" class="b1">Click here </a>
+            </p>
+        </div>
+        <div id="a3" class="c1">
+
+            <h1 style="color:white"> Threatre </h1>
+            <img src="bg3.jpg" style="height: 200px; width: 400px;">
+            <p style="color:white">
+                Theatre is an ancient aesthetic practice in India. Surviving play texts and treatises all suggest that theatre existed in the Indian subcontinent from the dawn of civilization.
+                <br> According to the Natyashastra (compiled probably between 2000 BCE and 2nd century CE) of Bharata, an exhaustive treatise on the art of performance, drama was a gift from the gods to the humans. The treatise evinces how sophisticated
+                ancient Indian theatre must have been.<br><br>But nowdays modern cinema has taken over , there are very few and ethentic places left who still performs ancient form of theatre They need help from YOU . help them to maintain this tradition.
+
+                <br> <a href="u.html" class="b1" style="margin-top: 2%;">Click here </a>
+                
+            </p>
+
+        </div>
+    </div>
+    <div class="navbar1" id="myNavbar">
+        <a href="#" class="active">Home</a>
+        <a href="#">News</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div style="padding-left:16px">
+
+        <p>It is worth helping art and artist </p>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myNavbar");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            } else {
+                x.className = "navbar1";
+            }
+        }
+    </script>
+
+    <Script>
+        // Automatic Slideshow - change image every 3 seconds
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides ");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none ";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1
+            }
+            x[myIndex - 1].style.display = "block ";
+            setTimeout(carousel, 3000);
+        }
+    </script>
+    
+
+
+</body>
+
+</html>

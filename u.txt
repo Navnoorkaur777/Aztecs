@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box
+        }
+        
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 10px;
+        }
+        /* Slideshow container */
+        
+        .slideshow-container1 {
+            position: relative;
+            background: #c9b81ff1;
+        }
+        /* Slides */
+        
+        .mySlides1 {
+            height: 880px;
+            padding: 10px;
+            text-align: center;
+        }
+        /* Next & previous buttons */
+        
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -30px;
+            padding: 16px;
+            color: #888;
+            font-weight: bold;
+            font-size: 20px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+        /*  "next button" to the right */
+        
+        .next {
+            position: absolute;
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        /* On hover, add a black background color with a little bit see-through */
+        
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+        }
+        /* The dot/bullet/indicator container */
+        
+        .dot-container {
+            text-align: center;
+            padding: 15px;
+            background: #ddd;
+        }
+        /* The dots/bullets/indicators */
+        
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+        /* Add a background color to the active dot/circle */
+        
+        .active,
+        .dot:hover {
+            background-color: #717171;
+        }
+        
+        #div1 {
+            background-image: url("div11.jpg");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: 100% 100%;
+        }
+        
+        #div2 {
+            background-image: url("div11.jpg");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: 100% 100%;
+        }
+        
+        #div3 {
+            background-image: url("div11.jpg");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-size: 100% 100%;
+        }
+        
+        .h11 {
+            text-align: left;
+            color: aqua;
+            font-size: 80px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="slideshow-container1">
+
+        <div id="div1" class="mySlides1">
+            <h1 class="h11">live Music!! </h1>
+            <p style=" font-size: medium; color:aqua; font-size: 18px; text-align: justify;">
+
+
+                <h3 style="color: #ffb3ff;">Calcutta School of Music</h3>
+                <p style="color: #ffb3ff;">- Founded back in 1915, it is one of the best institutions in India. Inaugurated by Pandit Ravi Shankar, the Indian Music section is known to train vocalists in ragas, Geet and Ghazal to Thumri and Kheyal </p><br>
+                <h3 style="color: #ffb3ff;"> The True School of Music</h3>
+                <p style="color: #ffb3ff;">- Set in the city of the entertainment industry, the school has grown rapidly over three years. Known to provide the finest Music Production and Sound Engineering programs, the institute aims to train the next generation of musicians,
+                    artists, instrument producers, producers, composers </p><br>
+                <h3 style="color: #ffb3ff;"> Madras Music Academy</h3>
+                <p style="color: #ffb3ff;">- Famously known for involvement in the promotion and safeguarding of the classical fine arts of Indian music, the academy was founded in 1928. Even today, the academy plays a vital role in encouraging and teaching Carnatic Music as an
+                    Indian art form</p><br>
+                <h3 style="color: #ffb3ff;"> Delhi School of Music</h3>
+                <p style="color: #ffb3ff;"> style="color: #ffb3ff;"-From all forms of the art, you believe Western Classical Music is where you belong then this school is the obvious the place for you. </p><br>
+                <h3 style="color: #ffb3ff;"> Mahadevan Academy</h3>
+                <p style="color: #ffb3ff;"> -Living in the age of internet and technological advancements, ace singer-composer Shankar Mahadevan is tutoring aspiring artists online.</p>
+
+            </p>
+
+        </div>
+
+        <div id="div2" class="mySlides1">
+            <h1 class="h11">Evening of dance </h1>
+            <p style=" font-size: medium; color:aqua; font-size: 18px; text-align: justify;">
+                <h3 style="color: #ffb3ff;">Bharatiya Vidhya Bhavan, Bangalore</h3><br>
+                <p style="color: #ffb3ff;"> : This is one of the most acknowledged dance academies in the country is Vidhya Bhavan.The several dance forms taught in this academy consists of Bharatanatyam, Kathak, Kathakali as well as tribal dances. </p>
+                <h3 style="color: #ffb3ff;">Veve Dance, Mumbai</h3><br>
+                <p style="color: #ffb3ff;"> : This is one among the most exquisite dance academies all throughout the country.One of the prime features of this dance academy is it flourishes with the Egyptian aura all over it. </p>
+                <h3 style="color: #ffb3ff;">Nalanda Nritya Kala Mahavidyalaya, Mumbai</h3><br>
+                <p style="color: #ffb3ff;"> : This is one of the most acclaimed institutes of learning every form of dance in Mumbai. Whenever it comes to classical dances it is always none other than Nritya Kala Mahavidyalaya. The institute ranges in all form of classical dances
+                    like Kathak, Manipuri as well as tribal forms of dances.</p>
+                <h3 style="color: #ffb3ff;">Sri Thyagaraja College of Music and Dance</h3><br>
+                <p style="color: #ffb3ff;"> : Situated in the city of Hyderabad, offering courses in 13 different disciples of Indian classical dance and music, Sri Tyagaraja College is considered as one of the best colleges in India. Renowned for the courses offered in Kuchipudi.
+                    <h3 style="color: #ffb3ff;">Nrityanjali Institute of Performing Arts</h3>
+                    <p style="color: #ffb3ff;">: This belongs to one of the most acclaimed institutes in Mumbai for featuring flok and classical dance.</p>
+                </p>
+
+            </p>
+
+        </div>
+
+
+
+
+        <div id="div3" class="mySlides1">
+            <h1 class="h11">Drama: Reality</h1>
+            <p style=" font-size: medium; color:aqua; font-size: 18px; text-align: justify;">
+                <h3 style="color: #ffb3ff;"> Yatra/Jatra</h3><br>
+                <p style="color: #ffb3ff;">It is traditional folk theatre of eastern India. The origin of this musical drama or theatre intrinsically a musical theatre form, is traditionally credited to the rise of Sri Chaitanya's Bhakti movement, </p>
+
+                <h3 style="color: #ffb3ff;">Swang</h3><br>
+                <p style="color: #ffb3ff;">It is very famous traditional theatre in the state of Punjab, Haryana and Odisha. It was performed in rural area of Rajasthan, Uttar Pradesh, Uttrakhand and Bengal. The softness of emotions, sharpness of dialogue and specific costumes
+                    are some features of this theatre. </p>
+
+                <h3 style="color: #ffb3ff;"> Nautanki</h3><br>
+                <p style="color: #ffb3ff;"> It is a famous traditional theatre of Northern India. It is said that this style was developed from 'Bhagat' form of theatre which is approximately 400 years old, while the word 'Nautanki' come into existence only in 19th century.</p>
+
+                <h3 style="color: #ffb3ff;">Dashavatar</h3><br>
+                <p style="color: #ffb3ff;">It is the most developed and famous theatre of Konkan and Goa region. The performers personify the 10 incarnations of Lord Vishnu and performed during religious ceremonies. </p>
+
+                <h3 style="color: #ffb3ff;"> Kariyala</h3><br>
+                <p style="color: #ffb3ff;"> t is Hindustani folk-dance drama or theatre of Rajasthan. They are performed exclusively by men, are characterized by the powerful body movements of the performers, and include mime and chanting. </p>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides1");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+</body>
+
+</html>
